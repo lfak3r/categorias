@@ -43,13 +43,16 @@
     overflow-y: auto; /* Añade scroll si el contenido excede la altura máxima */
   }
   .lista h3 {
-    text-align: center;
-    background-color: #0056b3;
-    color: white;
-    margin: 0;
-    padding: 10px 0;
-    border-radius: 8px 8px 0 0;
-  }
+  text-align: center;
+  margin-top: 0;
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 0;
+  position: sticky; /* Añade esta línea */
+  top: 0;
+  
+}
+
   .lista-item {
     padding: 10px 15px;
     border-bottom: 1px solid #ddd;
