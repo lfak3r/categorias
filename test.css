@@ -1,0 +1,9 @@
+div.content-wrapper {
+background:-webkit-linear-gradient(51deg, rgb(106, 3, 81) 0%, rgb(110, 9, 121) 35%, rgb(0, 212, 255) 100%, rgb(0, 212, 255) 100%);
+min-height:872px;
+}
+
+div.os-content {
+  background-color: #37474f00;
+  border-style: none;
+}
