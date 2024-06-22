@@ -3,7 +3,83 @@ background:-webkit-linear-gradient(51deg, rgb(106, 3, 81) 0%, rgb(110, 9, 121) 3
 min-height:872px;
 }
 
-div.os-content {
-  background-color: #37474f00;
-  border-style: none;
+
+div.card.card-default {
+  /* out panels */
+background: rgba(255, 255, 255, 0.35);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.2px);
+-webkit-backdrop-filter: blur(9.2px);
+border: 1px solid rgba(255, 255, 255, 0.47);
+}
+
+div.info-box {
+  /* Info lines */
+background: rgba(255, 255, 255, 0.35);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.2px);
+-webkit-backdrop-filter: blur(9.2px);
+border: 1px solid rgba(255, 255, 255, 0.47);
+}
+.table td{
+  border-top-color: white;
+}
+div.card {
+  /* inside panels */
+background: rgba(255, 255, 255, 0.31)
+;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.2px);
+-webkit-backdrop-filter: blur(9.2px);
+border: 1px solid rgba(255, 255, 255, 0.47);
+
+}
+
+.table-hover tbody tr:hover {
+    color: #212529;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+input.form-control.float-right {
+background: rgba(255, 255, 255, 0.31)
+;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.2px);
+-webkit-backdrop-filter: blur(9.2px);
+border: 1px solid rgba(255, 255, 255, 0.47);  
+}
+
+button {
+  background: rgba(255, 255, 255, 0.31)
+;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.2px);
+-webkit-backdrop-filter: blur(9.2px);
+border: 1px solid rgba(255, 255, 255, 0.47);
+}
+
+
+select.form-control.float-left {
+  background: rgba(255, 255, 255, 0.31)
+;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.2px);
+-webkit-backdrop-filter: blur(9.2px);
+border: 1px solid rgba(255, 255, 255, 0.47);
+}
+
+select.form-control {
+  background: rgba(255, 255, 255, 0.31)
+;
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.2px);
+-webkit-backdrop-filter: blur(9.2px);
+border: 1px solid rgba(255, 255, 255, 0.47);
 }
